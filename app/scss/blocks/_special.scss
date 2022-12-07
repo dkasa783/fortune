@@ -1,0 +1,125 @@
+.special{
+    margin-top: 200px;
+}
+
+.all-special{
+    display: flex;
+    justify-content: space-between;
+
+    width: 1240px;
+    height: 282px;
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+}
+
+
+// 1 секция
+
+.spec1{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    gap: 10px;
+    
+
+    background: #FC8AD0;
+    border-radius: 10px;
+    width: 340px;
+    height: 48px;
+    left: 40px;
+    top: 22px;
+}
+
+.special-text1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.special-text2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+
+    @extend %sf-regular;
+    font-size: 24px;
+    line-height: 137%;
+    letter-spacing: 0.02em;
+    color: #202020;
+}
+
+.special-btn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    background-color: #fdf18d;
+    color: #202020;
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 16px;
+    position: absolute;
+    line-height: 19px;
+
+    margin-left: 30px;
+}
+
+// 2 секция
+
+.special-second{
+    background-image: url(../images/rectangle7.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 295px;
+    height: 282px;
+}
+
+.vector16{
+    margin-top: 20px;
+}
+
+.special-second-text1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.special-second-text2{
+    @extend %sf-regular;
+    font-size: 20px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.icon-gift{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.special-second-text3{
+    @extend %sf-regular;
+    font-size: 20px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    margin-left: 30px;
+    margin-top: 15px;
+}

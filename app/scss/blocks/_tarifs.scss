@@ -1,0 +1,548 @@
+.tarifs {
+  margin-top: 150px;
+}
+
+
+// для всех тарифов
+.tarifs__info {
+  @extend %sf-regular;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+  position: relative;
+  margin-top: 15px;
+}
+
+.tarifs__info::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #fc8ad0;
+  width: 368px;
+  height: 0;
+  left: 0;
+  bottom: -37px;
+}
+
+.tarifs__info::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #fc8ad0;
+  width: 368px;
+  height: 0;
+  left: 0;
+  bottom: -195px;
+}
+
+.all-tarifs {
+  display: flex;
+  gap: 20px;
+}
+
+.tarifs__item {
+  position: relative;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+}
+
+.tarifs__item::after {
+  content: "";
+  background-image: url(../images/cross.svg);
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 356px;
+}
+
+.tarifs__items {
+  position: relative;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+}
+.tarifs__items::before {
+  content: "";
+  background-image: url(../images/check-mark.svg);
+  position: absolute;
+  width: 22px;
+  height: 16px;
+  left: 356px;
+}
+.tarifs__blocks {
+  background-image: url(../images/Group-23.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 452px;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+
+  box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+  border-radius: 10px;
+}
+
+.tarifs__title {
+  font-family: "Inter-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 68px;
+  text-shadow: 2px 0 2px #5f5f5f, 0 2px 2px #5f5f5f, -2px 0 2px #5f5f5f,
+    0 -2px 2px #5f5f5f;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.tarifs__name {
+  @extend %sf-regular;
+  font-size: 20px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 24px;
+}
+
+.tarifs__menu {
+  @extend %sf-regular;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 45px;
+}
+
+.tarifs_price {
+  padding: 30px 0 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+  margin-bottom: 35px;
+}
+
+.tarifs-btns {
+  background-color: #fdf18d;
+  color: #202020;
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-size: 16px;
+  position: absolute;
+  line-height: 19px;
+
+  left: 104px;
+}
+
+//
+
+// для 1 карточки 
+
+.tarifs__name1 {
+  @extend %sf-regular;
+  font-size: 20px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 24px;
+}
+
+.tarifs__info1 {
+  @extend %sf-regular;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+  position: relative;
+  margin-top: 15px;
+}
+
+.tarifs__info1::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #fc8ad0;
+  width: 368px;
+  height: 0;
+  left: 0;
+  bottom: -15px;
+}
+
+.tarifs__info1::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #fc8ad0;
+  width: 368px;
+  height: 0;
+  left: 0;
+  bottom: -175px;
+}
+
+// tarifs ITEM
+.tarifs__item1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+}
+
+.tarifs__item1::after {
+  content: "";
+  background-image: url(../images/cross.svg);
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 340px;
+}
+
+// tarifs itemSSS
+.tarifs__items1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+}
+.tarifs__items1::before {
+  content: "";
+  background-image: url(../images/check-mark.svg);
+  position: absolute;
+  width: 22px;
+  height: 16px;
+  left: 338px;
+}
+
+// tarifs__blocks есть для всех
+// tarifs__name тоже есть для всех
+
+.tarifs__menu1 {
+  @extend %sf-regular;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.tarifs_price1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  padding: 30px 0 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+  margin-bottom: 15px;
+}
+
+.tarifs_price1 span {
+  font-size: 18px;
+}
+
+
+.tarifs-btns1 {
+  @extend %sf-regular;
+  background-color: #fdf18d;
+  color: #202020;
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-size: 16px;
+  position: absolute;
+  line-height: 19px;
+
+  left: 100px;
+}
+//
+
+
+// для 2 карточки
+.tarifs__blocks2 {
+  background-image: url(../images/Group-23.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 452px;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+
+  box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+  border-radius: 10px;
+}
+
+.tarifs__name2 {
+  @extend %sf-regular;
+  font-size: 20px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 24px;
+}
+
+.tarifs__info2 {
+  @extend %sf-regular;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+  position: relative;
+  margin-top: 15px;
+}
+
+.tarifs__info2::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #fc8ad0;
+  width: 368px;
+  height: 0;
+  left: 0;
+  bottom: -15px;
+}
+
+.tarifs__info2::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #fc8ad0;
+  width: 368px;
+  height: 0;
+  left: 0;
+  bottom: -175px;
+}
+
+.tarifs__menu2 {
+  @extend %sf-regular;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+// tarifs ITEM
+.tarifs__item2 {
+  position: relative;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+}
+
+.tarifs__item2-1::before {
+  content: "";
+  background-image: url(../images/check-mark.svg);
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 16px;
+  left: 350px;
+}
+
+.tarifs__item2::after {
+  content: "";
+  background-image: url(../images/cross.svg);
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 335px;
+}
+
+
+// tarifs itemSSS
+.tarifs__items2-1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+}
+.tarifs__items2-1::before {
+  content: "";
+  background-image: url(../images/check-mark.svg);
+  position: absolute;
+  width: 22px;
+  height: 16px;
+  left: 333px;
+}
+// прайс и кнопка
+
+.tarifs_price2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  padding: 30px 0 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+  margin-bottom: 15px;
+}
+
+.tarifs_price2 span {
+  font-size: 18px;
+}
+
+
+.tarifs-btns2 {
+  @extend %sf-regular;
+  background-color: #fdf18d;
+  color: #202020;
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-size: 16px;
+  position: absolute;
+  line-height: 19px;
+
+  left: 100px;
+}
+//
+
+
+// для 3 карточки
+.tarifs__blocks3 {
+  background-image: url(../images/Group-23.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 452px;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+
+  box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+  border-radius: 10px;
+}
+
+.tarifs__name3 {
+  @extend %sf-regular;
+  font-size: 20px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 24px;
+}
+
+.tarifs__info3 {
+  @extend %sf-regular;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+  position: relative;
+  margin-top: 15px;
+}
+
+.tarifs__info3::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #fc8ad0;
+  width: 368px;
+  height: 0;
+  left: 0;
+  bottom: -36px;
+}
+
+.tarifs__info3::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #fc8ad0;
+  width: 368px;
+  height: 0;
+  left: 0;
+  bottom: -196px;
+}
+
+.tarifs__menu3 {
+  @extend %sf-regular;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+// tarifs ITEM
+.tarifs__item3 {
+  position: relative;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+}
+
+.tarifs__item3::before {
+  content: "";
+  background-image: url(../images/check-mark.svg);
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 16px;
+  left: 335px;
+}
+
+
+// tarifs itemSSS
+.tarifs__items3 {
+  position: relative;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+}
+.tarifs__items3::before {
+  content: "";
+  background-image: url(../images/check-mark.svg);
+  position: absolute;
+  width: 22px;
+  height: 16px;
+  left: 335px;
+}
+// прайс и кнопка
+
+.tarifs_price3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  padding: 30px 0 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 0.02em;
+  color: #202020;
+  margin-bottom: 15px;
+}
+
+.tarifs_price3 span {
+  font-size: 18px;
+}
+
+
+.tarifs-btns3 {
+  @extend %sf-regular;
+  background-color: #fdf18d;
+  color: #202020;
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-size: 16px;
+  position: absolute;
+  line-height: 19px;
+
+  left: 100px;
+}
+//

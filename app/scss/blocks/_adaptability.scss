@@ -1,0 +1,87 @@
+.adaptability {
+  margin-top: 300px;
+}
+
+// 1 блок с текстом и розовыми девайсами
+
+.gadget-png {
+  display: flex;
+  gap: 10px;
+}
+
+.section-adaptabillity__inner-text-1 {
+  @extend %sf-semibold;
+  font-size: 24px;
+  line-height: 135.5%;
+  letter-spacing: 0.02em;
+  color: #202020;
+
+  margin-top: 15px; // верно ли?
+}
+
+.section-adaptabillity__inner-title {
+  @extend %sf-regular;
+  font-size: 40px;
+  line-height: 124.5%;
+  letter-spacing: 0.02em;
+  color: #202020;
+
+  margin-top: 15px; // верно ли?
+}
+
+.section-adaptabillity__inner-title p {
+  color: #fc8ad0;
+}
+
+.section-adaptabillity__inner-text-2 {
+  @extend %sf-regular;
+  font-size: 20px;
+  line-height: 130.5%;
+  color: #202020;
+
+  margin-top: 10px; // верно ли?
+}
+
+// 2 блок с картинками компа, телефа, звездочка с текстом
+
+// картинка компа
+
+.adaptability__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-adaptabillity__inner-img-1 {
+  position: relative;
+}
+
+// картинка телефона
+.section-adaptabillity__inner-img-2 {
+  position: absolute;
+  width: 167.54px;
+  height: 339px;
+  left: 1366.26px;
+  top: 2354px;
+}
+// верно ли сверстан телефон и комп?
+
+// звездочка с текстом
+
+.star {
+  position: relative;
+  background-image: url(../images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 200px;
+  height: 180px;
+  left: 38px;
+  bottom: 84px;
+}
+
+.star text {
+  @extend %sf-regular;
+  text-align: center;
+}
+// верно ли сверстано?

@@ -1,0 +1,102 @@
+.instruction{
+    margin-top: 120px;
+}
+
+// нужно ли что то задавать instruction-section__inner?
+//
+
+.instruction-section__inner-title{
+    font-family: 'Inter-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 68px;
+    text-shadow: 2px 0 2px #5f5f5f, 0 2px 2px #5f5f5f, -2px 0 2px #5f5f5f, 0 -2px 2px #5f5f5f;
+    color: white;
+
+    margin-left: 55px;
+}
+
+
+.instruction-section__inner-title2{
+    @extend %sf-regular;
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    color: #202020;
+    margin-top: 15px;
+
+    margin-left: 55px;
+}
+
+.instruction-section__inner-title2 p{
+    color: #FC8AD0;
+    display: inline-block; // верно ли?
+    text-align: center; // верно ли?
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+// нав список
+.registration_inner{
+    @extend %sf-semibold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    color: #202020;
+    margin-left: 55px;
+}
+
+.choose_inner{
+    @extend %sf-semibold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    color: #202020;
+    margin-left: 10px;
+}
+
+.install__inner-title{
+    @extend %sf-semibold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    color: #202020;
+    margin-right: 90px;
+}
+
+.group13{
+    background-image: url(../images/group13.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1385px;
+    height: 48px;
+    margin-top: 25px;
+}
+
+.instruction-img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instruction-section__inner-img-1{
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+}
+
+.instruction-section__inner-img-2{
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+}
+
+.instruction-section__inner-img-3{
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+}

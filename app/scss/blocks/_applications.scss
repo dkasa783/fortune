@@ -1,0 +1,157 @@
+// верно ли сверстана секция?
+.applications {
+  margin-top: 200px;
+  background-image: url(../images/bg-2-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.phone-section__inner {
+  padding-top: 55px;
+  padding-bottom: 88px;
+}
+
+.blocks {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+// заголовки перед 1 секцией
+.phone-section__inner-title {
+  @extend %sf-regular;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.title-text {
+  @extend %sf-regular;
+  font-size: 18px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.text1-1 {
+  @extend %sf-regular;
+  font-size: 16px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.text1-2 {
+  @extend %sf-regular;
+  font-size: 16px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.text1-3 {
+  @extend %sf-regular;
+  font-size: 16px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.slide-item2 {
+  margin-right: 243px;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+
+.slide-item3_2 {
+  margin-top: 11px;
+  margin-bottom: 25px;
+  margin-left: 243px;
+}
+
+.text3_1{
+  @extend %sf-regular;
+  font-size: 16px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.text3_2{
+  @extend %sf-regular;
+  font-size: 16px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.text3_3{
+  @extend %sf-regular;
+  font-size: 16px;
+  line-height: 126%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+
+
+// блоки гридами
+
+// позиционирование элементов при помощи justify-self
+// 1 слайд
+
+// .applications::after {
+//   content: "";
+//   background-image: url(../images/ellipse-8.png);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   position: absolute;
+//   width: 2488px;
+//   height: 782px;
+//   left: -263px;
+//   top: 5084px;
+//   z-index: -1;
+// }
+// .icon-percentage {
+//   background-image: url(../images/icon-percentage.svg);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   position: absolute;
+//   width: 70px;
+//   height: 70px;
+// }
+// .icon-settings {
+//   background-image: url(../images/icon-settings.svg);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   position: absolute;
+//   width: 70px;
+//   height: 70px;
+// }
+//
+
+// вводные данные для грид сетки 1 блока
+// .icon-web-browser {
+//   background-image: url(../images/icon-web-browser.svg);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   position: absolute;
+//   width: 70px;
+//   height: 70px;
+// }

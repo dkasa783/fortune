@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+@import "reset";
+@import "vars";
+@import "fonts";
+@import "global";
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/footer";
+@import "blocks/settings";
+@import "blocks/results";
+@import "blocks/connection";
+@import "blocks/adaptability";
+@import "blocks/promocods";
+@import "blocks/tarifs";
+@import "blocks/instruction";
+@import "blocks/applications";
+@import "blocks/templates";
+@import "blocks/flex-configuration";
+@import "blocks/special";
+@import "blocks/personal-account";
+@import "blocks/how-it-works";
+@import "blocks/contacts";

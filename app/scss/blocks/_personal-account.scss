@@ -1,0 +1,55 @@
+.personal {
+    margin-top: 150px;
+    background-image: url(../images/ellipse-23.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    height: 934px;
+    &__title {
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+      padding-top: 80px;
+    }
+  }
+  .personal__content {
+    position: relative;
+  }
+  .personal__content::after {
+    content: "";
+    position: absolute;
+    max-width: 925px;
+    width: 100%;
+    height: 510px;
+    right: 0;
+    background-image: url(../images/personal-account1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .personal__title::after {
+    content: "";
+    position: absolute;
+    max-width: 430px;
+    height: 220px;
+    width: 100%;
+    background-image: url(../images/personal-account2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: 5px;
+    top: 583px;
+    z-index: 1;
+  }
+
+.personal__title{
+    @extend %sf-regular;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+  

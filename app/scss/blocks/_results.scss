@@ -1,0 +1,105 @@
+.results{
+    margin-top: 70px;
+}
+
+.section-results__inner-title{
+    font-family: 'Inter-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 68px;
+    text-shadow: 2px 0 2px #5f5f5f, 0 2px 2px #5f5f5f, -2px 0 2px #5f5f5f, 0 -2px 2px #5f5f5f;
+    color: white;
+}
+
+// общий класс иконок
+.icons-img{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+// 1 карточка
+
+.card-1{
+    width: 295px;
+    height: 200px;
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+}
+
+.item-1{
+    align-items: center;
+    text-align: center;
+}
+
+.section-title1{
+    @extend %sf-regular;
+    color: #5F5F5F;
+    font-size: 18px;
+}
+
+// 2 карточка
+
+.card-2{
+    width: 295px;
+    height: 200px;
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+    padding-top: 10px; // правильно ли?
+}
+
+.item-2{
+    align-items: center;
+    text-align: center;
+}
+
+.section-title2{
+    @extend %sf-regular;
+    color: #5F5F5F;
+    font-size: 18px;
+}
+
+// 3 карточка
+
+.card-3{
+    width: 295px;
+    height: 200px;
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+    padding-top: 10px; // правильно ли?
+}
+
+.item-3{
+    align-items: center;
+    text-align: center;
+}
+
+.section-title3{
+    @extend %sf-regular;
+    color: #5F5F5F;
+    font-size: 18px;
+}
+
+// 4 карточка
+
+.card-4{
+    width: 295px;
+    height: 200px;
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+    padding-top: 10px; // правильно ли?
+}
+
+.item-4{
+    align-items: center;
+    text-align: center;
+}
+
+.section-title4{
+    @extend %sf-regular;
+    color: #5F5F5F;
+    font-size: 18px;
+}

@@ -1,0 +1,275 @@
+.templates{
+    margin-top: 200px;
+}
+
+.templates-section__inner-title{
+    font-family: 'Inter-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 68px;
+    text-shadow: 2px 0 2px #5f5f5f, 0 2px 2px #5f5f5f, -2px 0 2px #5f5f5f, 0 -2px 2px #5f5f5f;
+    color: white;
+
+    margin-bottom: 40px;
+}
+
+
+// все для самих карточек
+.articles{
+    display: flex;
+    gap: 20px;
+}
+
+.first-tarif_rectangle{
+    width: 300px;
+    height: 480px;
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+}
+
+.second-tarif_rectangle{
+    width: 300px;
+    height: 480px;
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+}
+
+.third-tarif_rectangle{
+    width: 300px;
+    height: 480px;
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+}
+
+.fourth-tarif_rectangle{
+    width: 300px;
+    height: 480px;
+    box-shadow: 0px 0px 6px rgba(50, 42, 50, 0.25);
+    border-radius: 10px;
+}
+
+// 1 карточка
+.rectangle6-1_image{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 18px;
+    width: 279px;
+    height: 244px;
+    z-index: -1;
+}
+
+.rectangle6-1_name{ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #202020;
+    padding-left: 18px; // верно ли?
+    padding-top: 10px; // верно ли?
+}
+
+.rectangle6-1_info{
+    @extend %sf-regular;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #5F5F5F;
+    margin-top: 10px; // верно ли?
+    padding-left: 18px; // верно ли?
+    margin-top: 10px; // верно ли?
+}
+
+.rectangle-btn1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    background-color: #fdf18d;
+    color: #202020;
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 16px;
+    position: absolute;
+    line-height: 19px;
+    
+    margin-top: 35px;
+    margin-left: 65px;
+}
+
+// 2 карточка
+.rectangle6-2_image{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 18px;
+    width: 279px;
+    height: 244px;
+    z-index: -1;
+}
+
+.rectangle6-2_name{ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #202020;
+    padding-left: 18px; // верно ли?
+    padding-top: 10px; // верно ли?
+}
+
+
+.rectangle6-2_info{
+    @extend %sf-regular;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #5F5F5F;
+    margin-top: 10px; // верно ли?
+    padding-left: 18px; // верно ли?
+    margin-top: 10px; // верно ли?
+}
+
+.rectangle-btn2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    background-color: #fdf18d;
+    color: #202020;
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 16px;
+    position: absolute;
+    line-height: 19px;
+    
+    margin-top: 35px;
+    margin-left: 65px;
+}
+
+// 3 карточка
+.rectangle6-3_image{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 18px;
+    width: 279px;
+    height: 244px;
+    z-index: -1;
+}
+
+.rectangle6-3_name{ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #202020;
+    padding-left: 18px; // верно ли?
+    padding-top: 10px; // верно ли?
+}
+
+
+.rectangle6-3_info{
+    @extend %sf-regular;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #5F5F5F;
+    margin-top: 10px; // верно ли?
+    padding-left: 18px; // верно ли?
+    margin-top: 10px; // верно ли?
+}
+
+.rectangle-btn3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    background-color: #fdf18d;
+    color: #202020;
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 16px;
+    position: absolute;
+    line-height: 19px;
+    
+    margin-top: 54px;
+    margin-left: 65px;
+}
+
+// 4 карточка
+.rectangle6-4_image{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 18px;
+    width: 279px;
+    height: 244px;
+    z-index: -1;
+}
+
+.rectangle6-4_name{ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #202020;
+    padding-left: 18px; // верно ли?
+    padding-top: 10px; // верно ли?
+}
+
+
+.rectangle6-4_info{
+    @extend %sf-regular;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #5F5F5F;
+    margin-top: 10px; // верно ли?
+    padding-left: 18px; // верно ли?
+    margin-top: 10px; // верно ли?
+}
+
+.rectangle-btn4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    background-color: #fdf18d;
+    color: #202020;
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 16px;
+    position: absolute;
+    line-height: 19px;
+    
+    margin-top: 74px;
+    margin-left: 65px;
+}
+
+// кнопочка смотреть шаблоны
+
+.btn-template{
+    display: flex;
+    justify-content: center;
+}
+
+.templates-section__inner-btn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    color: #202020;
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 16px;
+    position: absolute;
+    line-height: 19px;
+    width: 314px;
+    height: 48px;
+    border: 2px solid #FDF18D;
+    border-radius: 10px;
+    text-align: center;
+
+    margin-top: 40px;
+}

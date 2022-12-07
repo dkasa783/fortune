@@ -1,0 +1,28 @@
+//Color
+
+// Breakpoints
+
+// Fonts
+ %sf-regular{
+     font-family: 'Inter-Regular', sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ %sf-medium {
+     font-family: "Inter-Medium", sans-serif;
+     font-weight: 500;
+     font-style: normal;
+ }
+
+ %sf-semibold{
+     font-family: 'Inter-SemiBold', sans-serif;
+     font-weight: 600;
+     font-style: normal;
+ }
+
+ @mixin font {
+     font-family: 'Inter-Regular', sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }

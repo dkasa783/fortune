@@ -1,0 +1,84 @@
+.flex-configuration{
+    margin-top: 200px;
+}
+
+.flex-configuration__inner-title{
+    @extend %sf-regular;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #202020;
+    
+    margin-left: 60px;
+}
+
+.nav__flex-items{
+    @extend %sf-regular;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: #202020;
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group14{
+    background-image: url(../images/group14.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1385px;
+    height: 48px;
+    margin-top: 25px;
+}
+
+.nav__flex-item1{
+    margin-left: 60px;
+}
+
+.nav__flex-item2{
+    margin-right: 190px;
+}
+
+.nav__flex-item3{
+    margin-right: 180px;
+}
+
+.sectors{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+// p-шечки текста
+
+.sector_text1{
+    @extend %sf-regular;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #5F5F5F;
+    margin-top: 10px;
+}
+
+.sector_text2{
+    @extend %sf-regular;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #5F5F5F;
+    margin-top: 10px;
+}
+
+.sector_text3{
+    @extend %sf-regular;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.02em;
+    color: #5F5F5F;
+    margin-top: 10px;
+}
